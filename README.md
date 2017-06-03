@@ -1,4 +1,15 @@
 # FP_WebSocketChatServer
+# ASSIGNMENT
+Use the following JSON protocol
+{ command: "login|send", content: "userName|message" }
+and extend the chat.elm page to:
+
+1. Send and receive messages in JSON
+2. Display a full list of the last chat messages
+This includes changing the model to contain a list of chat messages
+3. Login with a user name
+
+Implement this either by prefixing the user name in the button with "login" (so to log in with "Anders" you write "loginAnders"), or by creating a new input field
 
 ### Using the following JSON Protocol:
 
